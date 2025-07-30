@@ -35,9 +35,8 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Miancang
-  - icon: academicons/google-scholar
-    url: https://www.bananaspace.org/wiki/%E7%94%A8%E6%88%B7:%E7%9C%A0%E8%8B%8D
   - icon: custom/bananaspace
+    url: https://www.bananaspace.org/wiki/%E7%94%A8%E6%88%B7:%E7%9C%A0%E8%8B%8D
 
 
 interests:
@@ -122,12 +121,30 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-#  - title: 2021 Zhiyuan Honors Scholarship
-#    url:
-#    date: '2021-9'
-#    awarder: Shanghai Jiao Tong University
-#    icon:
-#    summary: |
+  - title: 2021 Zhiyuan Honors Scholarship
+    url:
+    date: '2021-09-01'
+    awarder: Shanghai Jiao Tong University
+    icon:
+    summary: |
+  - title: 2022 Zhiyuan Honors Scholarship
+    url:
+    date: '2022-09-01'
+    awarder: Shanghai Jiao Tong University
+    icon:
+    summary: |
+  - title: 2023 Zhiyuan Honors Scholarship
+    url:
+    date: '2023-09-01'
+    awarder: Shanghai Jiao Tong University
+    icon:
+    summary: |
+  - title: 2024 Zhiyuan Honors Scholarship
+    url:
+    date: '2024-09-01'
+    awarder: Shanghai Jiao Tong University
+    icon:
+    summary: |
 ---
 
 ## About Me
