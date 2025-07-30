@@ -47,8 +47,8 @@ interests:
 education:
   - area: Mathematics and Applied Mathematics(Zhiyuan Honors Program)
     institution: Shanghai Jiao Tong University
-    date_start: 2021-7-18
-    date_end: 2020-6-25
+    date_start: 2021-07-18
+    date_end: 2020-06-25
     summary: |
       GPA: 3.28/4.30
       
@@ -70,7 +70,7 @@ education:
       - Algebraic Topology
   - area: Mathematics
     institution: University of Wisconsin-Madison
-    date_start: 2024-9-4
+    date_start: 2024-09-04
     date_end: ''
     summary: |
       GPA: 3.4/4.0
