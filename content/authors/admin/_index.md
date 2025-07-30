@@ -122,28 +122,10 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 2021 Zhiyuan Honors Scholarship
+#  - title: 2021 Zhiyuan Honors Scholarship
 #    url:
-    date: '2021-9'
-    awarder: Shanghai Jiao Tong University
-#    icon:
-#    summary: |
-  - title: 2022 Zhiyuan Honors Scholarship
-#    url:
-    date: '2022-9'
-    awarder: Shanghai Jiao Tong University
-#    icon:
-#    summary: |
-  - title: 2023 Zhiyuan Honors Scholarship
-#    url:
-    date: '2023-9'
-    awarder: Shanghai Jiao Tong University
-#    icon:
-#    summary: |
-  - title: 2024 Zhiyuan Honors Scholarship
-#    url:
-    date: '2024-9'
-    awarder: Shanghai Jiao Tong University
+#    date: '2021-9'
+#    awarder: Shanghai Jiao Tong University
 #    icon:
 #    summary: |
 ---
