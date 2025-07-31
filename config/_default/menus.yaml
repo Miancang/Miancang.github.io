@@ -16,6 +16,9 @@ main:
 #  - name: Talks
 #    url: /#talks
 #    weight: 13
+  - name: "|"
+    url: "#"
+    weight: 15
   - name: Experience
     url: experience/
     weight: 20
