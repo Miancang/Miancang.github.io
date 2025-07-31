@@ -1,0 +1,16 @@
+<svg width="960" height="540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a33"/>
+      <stop offset="100%" stop-color="#1a2a88"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bgGradient)"/>
+
+  <!-- 空间点阵 -->
+  <circle cx="120" cy="120" r="4" fill="white" fill-opacity="0.2"/>
+  <circle cx="180" cy="160" r="3" fill="white" fill-opacity="0.2"/>
+  <circle cx="240" cy="100" r="2" fill="white" fill-opacity="0.2"/>
+  <circle cx="300" cy="140" r="3" fill="white" fill-opacity="0.2"/>
+  <circle cx="360" cy="180" r="4" fill="white" fill-opacity="0.2"/>
+</svg>
