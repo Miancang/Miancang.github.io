@@ -1,38 +1,25 @@
 <svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 主径向渐变 - 左上角为中心 -->
-    <radialGradient id="mainGradient" cx="15%" cy="15%" r="70%" fx="10%" fy="10%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FCFAF1" />
-      <stop offset="30%" stop-color="#F9F5EC" />
-      <stop offset="60%" stop-color="#EADBD3" />
-      <stop offset="100%" stop-color="#C9B0A8" />
-    </radialGradient>
-    
-    <!-- 左上角高光增强 -->
-    <radialGradient id="cornerHighlight" cx="0%" cy="0%" r="50%" fx="0%" fy="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4" />
-      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
-    </radialGradient>
-    
-    <!-- 右下角阴影增强 -->
-    <radialGradient id="cornerShadow" cx="100%" cy="100%" r="60%" fx="100%" fy="100%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#C9B0A8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#C9B0A8" stop-opacity="0" />
-    </radialGradient>
-    
-    <!-- 模糊滤镜 -->
-    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="20" />
+
+
+    <!-- 深色主导的背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2CDC5" />      <!-- 起始色已加深 -->
+      <stop offset="30%" stop-color="#D5BDB5" />    <!-- 快速过渡 -->
+      <stop offset="70%" stop-color="#C9B0A8" />     <!-- 主深色区域 -->
+      <stop offset="100%" stop-color="#A38C84" />    <!-- 最深处 -->
+    </linearGradient>
+
+    <!-- 强模糊滤镜 -->
+    <filter id="intenseGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50" />
+      <feComposite in2="SourceAlpha" operator="atop"/>
     </filter>
   </defs>
+
+  <!-- 深色背景层 -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+
+
   
-  <!-- 主背景 -->
-  <rect width="100%" height="100%" fill="url(#mainGradient)"/>
-  
-  <!-- 左上角光晕层 -->
-  <circle cx="0" cy="0" r="45%" fill="url(#cornerHighlight)" filter="url(#softBlur)"/>
-  
-  <!-- 右下角阴影层 -->
-  <circle cx="960" cy="540" r="50%" fill="url(#cornerShadow)" filter="url(#softBlur)" opacity="0.7"/>
 </svg>
