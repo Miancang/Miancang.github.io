@@ -35,6 +35,8 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Miancang
+  - icon: academicons/mathoverflow
+    url: https://mathoverflow.net/users/530478/xingzhi-huang
   - icon: custom/bananaspace
     url: https://www.bananaspace.org/wiki/%E7%94%A8%E6%88%B7:%E7%9C%A0%E8%8B%8D
 
@@ -47,7 +49,7 @@ education:
   - area: Mathematics and Applied Mathematics(Zhiyuan Honors Program)
     institution: Shanghai Jiao Tong University
     date_start: 2021-07-18
-    date_end: 2020-06-25
+    date_end: 2025-06-25
     summary: |
       GPA: 3.28/4.30
       
