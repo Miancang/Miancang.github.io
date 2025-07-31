@@ -1,38 +1,38 @@
 <svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 主径向渐变 - 白色区域集中在顶部1/4 -->
-    <radialGradient id="mainGradient" cx="50%" cy="15%" r="60%" fx="50%" fy="10%" gradientUnits="userSpaceOnUse">
+    <!-- 主径向渐变 - 左上角为中心 -->
+    <radialGradient id="mainGradient" cx="15%" cy="15%" r="70%" fx="10%" fy="10%" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#FCFAF1" />
-      <stop offset="25%" stop-color="#F9F5EC" />     <!-- 25%处开始轻微过渡 -->
-      <stop offset="40%" stop-color="#EDE0D9" />     <!-- 40%处明显过渡 -->
-      <stop offset="70%" stop-color="#DBC3BB" />     <!-- 70%处接近最终色 -->
-      <stop offset="100%" stop-color="#C9B0A8" />    <!-- 100%处最终色 -->
+      <stop offset="30%" stop-color="#F9F5EC" />
+      <stop offset="60%" stop-color="#EADBD3" />
+      <stop offset="100%" stop-color="#C9B0A8" />
     </radialGradient>
     
-    <!-- 顶部高光增强 -->
-    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="0%" y2="25%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3" />
+    <!-- 左上角高光增强 -->
+    <radialGradient id="cornerHighlight" cx="0%" cy="0%" r="50%" fx="0%" fy="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.1" />
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
-    </linearGradient>
+    </radialGradient>
     
-    <!-- 底部弧线增强 -->
-    <radialGradient id="bottomShadow" cx="50%" cy="100%" r="70%" fx="50%" fy="120%">
-      <stop offset="0%" stop-color="#C9B0A8" stop-opacity="0.9" />
+    <!-- 右下角阴影增强 -->
+    <radialGradient id="cornerShadow" cx="100%" cy="100%" r="60%" fx="100%" fy="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C9B0A8" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#C9B0A8" stop-opacity="0" />
     </radialGradient>
     
     <!-- 模糊滤镜 -->
     <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="25" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" />
     </filter>
   </defs>
   
   <!-- 主背景 -->
   <rect width="100%" height="100%" fill="url(#mainGradient)"/>
   
-  <!-- 顶部高光层 -->
-  <rect width="100%" height="25%" fill="url(#topHighlight)"/>
+  <!-- 左上角光晕层 -->
+  <circle cx="0" cy="0" r="45%" fill="url(#cornerHighlight)" filter="url(#softBlur)"/>
   
-  <!-- 底部弧线增强 -->
-  <ellipse cx="50%" cy="110%" rx="75%" ry="40%" fill="url(#bottomShadow)" filter="url(#softBlur)" opacity="0.8"/>
+  <!-- 右下角阴影层 -->
+  <circle cx="960" cy="540" r="50%" fill="url(#cornerShadow)" filter="url(#softBlur)" opacity="0.7"/>
 </svg>
