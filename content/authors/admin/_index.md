@@ -98,7 +98,7 @@ skills:
   - name: Technical Skills
     items:
       - name: Lean
-        description: 'A computer language to formalize mathematics'
+        description: 'A computer language to formalize mathematics based on type theory'
         percent: 80
         icon: code-bracket
 #  - name: Hobbies
