@@ -1,16 +1,9 @@
-<svg width="960" height="540" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="540" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
   <defs>
-    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0a33"/>
-      <stop offset="100%" stop-color="#1a2a88"/>
-    </linearGradient>
+    <radialGradient id="grad" cx="85%" cy="15%" r="120%" fx="90%" fy="10%">
+      <stop offset="0%" stop-color="pink" />
+      <stop offset="100%" stop-color="skyblue" />
+    </radialGradient>
   </defs>
-  <rect width="960" height="540" fill="url(#bgGradient)"/>
-
-  <!-- 空间点阵 -->
-  <circle cx="120" cy="120" r="4" fill="white" fill-opacity="0.2"/>
-  <circle cx="180" cy="160" r="3" fill="white" fill-opacity="0.2"/>
-  <circle cx="240" cy="100" r="2" fill="white" fill-opacity="0.2"/>
-  <circle cx="300" cy="140" r="3" fill="white" fill-opacity="0.2"/>
-  <circle cx="360" cy="180" r="4" fill="white" fill-opacity="0.2"/>
+  <rect width="960" height="540" fill="url(#grad)" />
 </svg>
