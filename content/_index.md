@@ -19,7 +19,7 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: light
       background:
         color: black
         image:
@@ -53,17 +53,6 @@ sections:
 #    design:
 #      view: article-grid
 #      columns: 2
-  - block: collection
-    id: miscellany
-    content:
-      title: Miscellany
-      text: ""
-      filters:
-        folders:
-          - miscellany
-        exclude_featured: false
-    design:
-      view: citation
 #  - block: collection
 #    id: talks
 #    content:
