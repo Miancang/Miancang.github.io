@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 黄行知
+title: Xingzhi Huang
 
 # Name pronunciation (optional)
-name_pronunciation: Xingzhi Huang
+name_pronunciation: 黄行知
 
 # Full name (for SEO)
 first_name: Xingzhi
