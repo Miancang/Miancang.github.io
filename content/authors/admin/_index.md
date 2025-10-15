@@ -151,4 +151,4 @@ awards:
 
 ## About Me
 
- I am a master student at University of Wisconsin-Madison. I obtained my Bachelor’s degree at Shanghai Jiao Tong University in 2025. My interested areas are algebraic topology and algebraic geometry and I’m currently focusing on topics about motivic homotopy theories.
+ I am a master student at University of Wisconsin-Madison. I obtained my Bachelor’s degree at Shanghai Jiao Tong University in 2025. My interested areas are algebraic topology and algebraic geometry, with a particular emphasis on homotopy theory.
