@@ -28,7 +28,7 @@ sections:
         </div>
 
   # Education Section
-  - block: resume-education
+  - block: resume-experience
     id: education
     content:
       title: Education
