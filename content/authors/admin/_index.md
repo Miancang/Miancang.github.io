@@ -37,8 +37,6 @@ profiles:
     url: https://github.com/Miancang
   - icon: academicons/mathoverflow
     url: https://mathoverflow.net/users/530478/xingzhi-huang
-  - icon: custom/bananaspace
-    url: https://www.bananaspace.org/wiki/%E7%94%A8%E6%88%B7:%E7%9C%A0%E8%8B%8D
 
 
 interests:
@@ -46,41 +44,17 @@ interests:
   - Algebraic Geometry
 
 education:
-  - area: Mathematics and Applied Mathematics(Zhiyuan Honors Program)
-    institution: Shanghai Jiao Tong University
-    date_start: 2021-07-18
-    date_end: 2025-06-25
-    summary: |
-      GPA: 3.28/4.30
-      
-      Courses included:
-      - Advanced Algebra (H) I, II
-      - Elementary Number Theory
-      - Abstract Algebra
-      - Lie Groups and Lie Algebras
-      - Representation of Groups and Algebras
-      - Mathematical Analysis (H) I, II, III
-      - Calculus on Manifolds
-      - Ordinary Differential Equations
-      - Partial Differential Equations
-      - Real Analysis
-      - Complex Analysis
-      - Functional Analysis
-      - Basic Topology
-      - Differential Geometry
-      - Algebraic Topology
-  - area: Mathematics
+  - area: Mathematics (MS)
     institution: University of Wisconsin-Madison
     date_start: 2024-09-04
     date_end: ''
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - Differentiable Manifolds
-      - Introductory to Topology I, II
-      - Intro to Algebraic Geometry
-      - Homological Algebra
+  - area: Mathematics and Applied Mathematics(Zhiyuan Honors Program)(BS)
+    institution: Shanghai Jiao Tong University
+    date_start: 2021-07-18
+    date_end: 2025-06-25
+    summary: |
+
 #work:
 #  - position: Director of Cloud Infrastructure
 #    company_name: GenCoin
@@ -116,36 +90,46 @@ languages:
   - name: Chinese
     percent: 100
   - name: English
-    percent: 75
+    percent: 
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 2021 Zhiyuan Honors Scholarship
-    url:
-    date: '2021-09-01'
+  - title: Outstanding Undergraduate Scholarship
+    url: ''
+    date: '2024-12'
     awarder: Shanghai Jiao Tong University
-    icon:
+    icon: ''
     summary: |
-  - title: 2022 Zhiyuan Honors Scholarship
-    url:
-    date: '2022-09-01'
+      
+  - title: Zhiyuan Honors Scholarship
+    url: ''
+    date: '2024-11'
     awarder: Shanghai Jiao Tong University
-    icon:
+    icon: ''
     summary: |
-  - title: 2023 Zhiyuan Honors Scholarship
-    url:
-    date: '2023-09-01'
+      
+  - title: Zhiyuan Honors Scholarship
+    url: ''
+    date: '2023-11'
     awarder: Shanghai Jiao Tong University
-    icon:
+    icon: ''
     summary: |
-  - title: 2024 Zhiyuan Honors Scholarship
-    url:
-    date: '2024-09-01'
+      
+  - title: Zhiyuan Honors Scholarship
+    url: ''
+    date: '2022-11'
     awarder: Shanghai Jiao Tong University
-    icon:
+    icon: ''
+    summary: |
+      
+  - title: Zhiyuan Honors Scholarship
+    url: ''
+    date: '2021-11'
+    awarder: Shanghai Jiao Tong University
+    icon: ''
     summary: |
 ---
 
