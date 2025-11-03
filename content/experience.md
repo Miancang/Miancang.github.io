@@ -67,7 +67,7 @@ sections:
         - title: BBDG Decomposition
           company: University of Wisconsin--Madison
           location: Intersection Homology Reading Seminar
-          date_start: '2025-01-01'
+          date_start: ''
           date_end: ''
           summary: |
             [Seminar Link](https://wiki.math.wisc.edu/index.php/Intersection_Homology_Reading_Seminar)
@@ -75,8 +75,8 @@ sections:
         - title: Serre Spectral Sequence-I, II, III & Adams Spectral Sequence-I
           company: University of Wisconsin--Madison  
           location: Spectral Sequence in Algebraic Topology Reading Seminar (Organizer)
-          date_start: '2024-09-01'
-          date_end: '2024-10-01'
+          date_start: '2024-09-24'
+          date_end: ''
           summary: |
             [Seminar Link](https://wiki.math.wisc.edu/index.php/Spectral_Sequence_in_Algebraic_Topology_Reading_Seminar)
         
@@ -84,36 +84,36 @@ sections:
           company: University of Wisconsin--Madison
           location: Algebraic Geometry Reading Seminar
           date_start: '2024-09-01'
-          date_end: '2024-11-01'
+          date_end: '2024-11-15'
           summary: |
             Advanced topics in algebraic geometry.
         
         - title: Topology of Profinite Groups
           company: Shanghai Jiao Tong University
           location: Topic Course IV
-          date_start: '2024-05-01'
-          date_end: '2024-05-01'
+          date_start: '2024-05-13'
+          date_end: '2024-05-13'
           summary: |
             
         - title: Characteristic Classes and Vector Bundles
           company: Shanghai Jiao Tong University
           location: Topic Course III
-          date_start: '2023-12-01'
-          date_end: '2023-12-01'
+          date_start: '2023-12-15'
+          date_end: '2023-12-15'
           summary: |
             
         - title: Reinforcement Learning
           company: Shanghai Jiao Tong University
           location: Topic Course II
-          date_start: '2023-04-01'
-          date_end: '2023-04-01'
+          date_start: '2023-04-07'
+          date_end: '2023-04-07'
           summary: |
             
         - title: Non-standard Analysis
           company: Shanghai Jiao Tong University
           location: Topic Course I
-          date_start: '2022-12-01'
-          date_end: '2022-12-01'
+          date_start: '2022-12-05'
+          date_end: '2022-12-05'
           summary: |
 
   # Conferences Section
@@ -125,44 +125,44 @@ sections:
         - title: Equivariant, Motivic, and Physical Topology in the Midwest
           company: Minnesota, USA
           location: Developments in equivariant and motivic homotopy theory
-          date_start: '2025-10-01'
-          date_end: '2025-10-01'
+          date_start: '2025-10-24'
+          date_end: '2025-10-26'
           summary: |
             
         - title: International Workshop on Algebraic Topology 2025
           company: Hangzhou, China
           location: Computations with the Adams Spectral Sequence and the Last Kervaire Invariant Problem
           date_start: '2025-07-01'
-          date_end: '2025-07-01'
+          date_end: '2025-07-05'
           summary: |
             
         - title: International Workshop on Algebraic Topology 2024
           company: Shanghai, China
           location: Motivic Stable Homotopy Theory
-          date_start: '2024-05-01'
-          date_end: '2024-05-01'
+          date_start: '2024-06-23'
+          date_end: '2024-06-27'
           summary: |
             
         - title: AI for Mathematics (Winter Training Program 2023-2024)
           company: Beijing, China
           location: Mathematical Formalization and Theorem Proving
-          date_start: '2024-01-01'
-          date_end: '2024-01-01'
+          date_start: '2024-01-15'
+          date_end: '2024-01-26'
           summary: |
             
         - title: ∞-type Café Summer School 2023
           company: Online
           location: Type Theory
-          date_start: '2023-07-01'
-          date_end: '2023-07-01'
+          date_start: '2023-07-02'
+          date_end: '2023-07-15'
           summary: |
             [Link](https://infinity-type-cafe.github.io/ntype-cafe-summer-school/)
             
         - title: Fudan Logic Summer School 2023
           company: Shanghai, China
           location: Model Theory of Nonabelian Free Groups & Nonstandard Analysis and Combinatorial Number Theory
-          date_start: '2023-07-01'
-          date_end: '2023-08-01'
+          date_start: '2023-07-31'
+          date_end: '2023-08-11'
           summary: |
 
   # Internship Section
@@ -174,8 +174,8 @@ sections:
         - title: "AI for Mathematics" Internship Program
           company: Beijing International Center for Mathematical Research
           location: Beijing, China
-          date_start: '2025-08-01'
-          date_end: '2025-09-01'
+          date_start: '2025-08-05'
+          date_end: '2025-09-22'
           summary: |
             Formal data annotation in abstract algebra.
 
