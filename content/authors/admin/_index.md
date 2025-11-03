@@ -99,35 +99,35 @@ languages:
 awards:
   - title: Outstanding Undergraduate Scholarship
     url: ''
-    date: '2024-12'
+    date: '2024-12-01'
     awarder: Shanghai Jiao Tong University
     icon: ''
     summary: |
       
   - title: Zhiyuan Honors Scholarship
     url: ''
-    date: '2024-11'
+    date: '2024-11-01'
     awarder: Shanghai Jiao Tong University
     icon: ''
     summary: |
       
   - title: Zhiyuan Honors Scholarship
     url: ''
-    date: '2023-11'
+    date: '2023-11-01'
     awarder: Shanghai Jiao Tong University
     icon: ''
     summary: |
       
   - title: Zhiyuan Honors Scholarship
     url: ''
-    date: '2022-11'
+    date: '2022-11-01'
     awarder: Shanghai Jiao Tong University
     icon: ''
     summary: |
       
   - title: Zhiyuan Honors Scholarship
     url: ''
-    date: '2021-11'
+    date: '2021-11-01'
     awarder: Shanghai Jiao Tong University
     icon: ''
     summary: |
