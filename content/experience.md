@@ -171,7 +171,7 @@ sections:
     content:
       title: Internships
       items:
-        - title: "AI for Mathematics" Internship Program
+        - title: 'AI for Mathematics" Internship Program
           company: Beijing International Center for Mathematical Research
           location: Beijing, China
           date_start: '2025-08-05'
