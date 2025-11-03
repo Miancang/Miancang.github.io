@@ -10,9 +10,9 @@ main:
   - name: Research
     url: research/
     weight: 12
-#  - name: Talks
-#    url: /#talks
-#    weight: 13
+  - name: Notes
+    url: notes/
+    weight: 13
   - name: Experience
     url: experience/
     weight: 20
