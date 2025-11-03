@@ -1,33 +1,18 @@
 ---
-# Leave the homepage title empty to use the widget title
 title: 'Experience'
 date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: '6rem'
 
 sections:
-  # 添加目录导航栏
   - block: markdown
-    id: toc
     content:
       title: ''
       text: |-
-        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <h3>Contents</h3>
-        <ul style="list-style: none; padding-left: 0;">
-        <li><a href="#education" style="text-decoration: none; color: #007bff;">📚 Education</a></li>
-        <li><a href="#seminar-talks" style="text-decoration: none; color: #007bff;">🎤 Seminar Talks</a></li>
-        <li><a href="#conferences" style="text-decoration: none; color: #007bff;">🏛️ Conferences & Summer Schools</a></li>
-        <li><a href="#internship" style="text-decoration: none; color: #007bff;">💼 Internship</a></li>
-        <li><a href="#awards" style="text-decoration: none; color: #007bff;">🏆 Honors and Awards</a></li>
-        <li><a href="#skills" style="text-decoration: none; color: #007bff;">⚡ Skills</a></li>
-        </ul>
-        </div>
+        {{< toc >}}
 
-  # Education Section
   - block: resume-experience
     id: education
     content:
