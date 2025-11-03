@@ -19,15 +19,8 @@ header:
 
 ## Seminar Notes
 
-### Spectral Sequence in Algebraic Topology
+### Spectral Sequence in Algebraic Topology (Fall 2025)
 
-Comprehensive notes covering the theory and applications of spectral sequences in algebraic topology, including:
-
-- Serre Spectral Sequence
-- Adams Spectral Sequence  
-- Leray Spectral Sequence
-- Applications to homotopy theory
-
-*Notes from reading seminar organized at University of Wisconsin--Madison, 2024*
+- [Notes](https://github.com/Miancang/Miscellany/tree/main/Seminar%20on%20Spectral%20Sequences%20in%20Algebraic%20Topology)
 
 ### Other Mathematical Notes
