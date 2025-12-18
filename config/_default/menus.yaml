@@ -13,6 +13,9 @@ main:
   - name: Notes
     url: notes/
     weight: 13
+  - name: Devs
+    url: devs/
+    weight: 15
   - name: Experience
     url: experience/
     weight: 20
