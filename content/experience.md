@@ -60,6 +60,11 @@ Dec 2022
 
 ## Conferences & Summer Schools Attended
 
+**Midwest Topology Seminar Winter 2026**  
+Cleveland, USA  
+Recent work in algebraic topology  
+Feb 2026
+
 **Equivariant, Motivic, and Physical Topology in the Midwest**  
 Minnesota, USA  
 Developments in equivariant and motivic homotopy theory  
